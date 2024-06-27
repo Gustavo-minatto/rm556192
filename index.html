@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Resumo Financeiro</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<body>
+  <div class="container mt-4">
+    <nav class="navbar-dark fixed-top">
+      <button class="navbar-toggler" type="button">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-brand mx-auto">Home</div>
+    </nav>
+
+    <div id="saldo-conta" class="card mt-4">
+      <div class="card-body">
+        <div>
+          <h5 class="card-title">Saldo em conta</h5>
+          <p class="card-text">R$ 5.000,01</p>
+        </div>
+      </div>
+      <a href="#" class="btn btn-light custom-btn-text">ver extrato</a>
+
+    </div>
+
+    <div id="cartoes" class="card mt-4">
+      <div class="card-body ">
+        <div>
+          <h5 class="card-title">Cartões</h5>
+          <h5 class="card-titleLimit">limite disponível</h5>
+          <p class="card-textLimit">R$ 200.000,09</p>
+        </div>
+      </div>
+      <a href="#" class="btn btn-light custom-btn-text">ver cartões</a>
+    </div>
+
+    <div id="investimentos" class="card mt-4">
+      <div class="card-body">
+        <div>
+          <h5 class="card-title">Investimentos</h5>
+          <p class="card-text">R$ 10.000,99</p>
+        </div>
+      </div>
+      <a href="#" class="btn btn-light custom-btn-text">ver investimentos</a>
+    </div>
+  </div>
+
+  <footer class="fixed-bottom">
+    <div class="container d-flex justify-content-around py-2">
+      <a href="#" class="text-white"><i class="fas fa-home">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+            <path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+              d="M80 212v236a16 16 0 0 0 16 16h96V328a24 24 0 0 1 24-24h80a24 24 0 0 1 24 24v136h96a16 16 0 0 0 16-16V212" />
+            <path fill="none" stroke="white" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+              d="M480 256L266.89 52c-5-5.28-16.69-5.34-21.78 0L32 256m368-77V64h-48v69" />
+          </svg>
+        </i></a>
+      <a href="#" class="text-white"><i class="fas fa-credit-card">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24">
+            <path fill="white"
+              d="m15.45 16.52l-3.01-3.01c-.11-.11-.24-.13-.31-.13s-.2.02-.31.13L8.8 16.53c-.34.34-.87.89-2.64.89l3.71 3.7a3 3 0 0 0 4.24 0l3.72-3.71c-.91 0-1.67-.18-2.38-.89M8.8 7.47l3.02 3.02c.08.08.2.13.31.13s.23-.05.31-.13l2.99-2.99c.71-.74 1.52-.91 2.43-.91l-3.72-3.71a3 3 0 0 0-4.24 0l-3.71 3.7c1.76 0 2.3.58 2.61.89" />
+            <path fill="white"
+              d="m21.11 9.85l-2.25-2.26H17.6c-.54 0-1.08.22-1.45.61l-3 3c-.28.28-.65.42-1.02.42a1.5 1.5 0 0 1-1.02-.42L8.09 8.17c-.38-.38-.9-.6-1.45-.6H5.17l-2.29 2.3a3 3 0 0 0 0 4.24l2.29 2.3h1.48c.54 0 1.06-.22 1.45-.6l3.02-3.02c.28-.28.65-.42 1.02-.42s.74.14 1.02.42l3.01 3.01c.38.38.9.6 1.45.6h1.26l2.25-2.26a3.042 3.042 0 0 0-.02-4.29" />
+          </svg>
+        </i></a>
+      <a href="#" class="text-white"><i class="fas fa-chart-line">
+          <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 512 512">
+            <path fill="white"
+              d="M32 376a56 56 0 0 0 56 56h336a56 56 0 0 0 56-56V222H32Zm66-76a30 30 0 0 1 30-30h48a30 30 0 0 1 30 30v20a30 30 0 0 1-30 30h-48a30 30 0 0 1-30-30ZM424 80H88a56 56 0 0 0-56 56v26h448v-26a56 56 0 0 0-56-56" />
+          </svg>
+        </i></a>
+      <a href="#" class="text-white"><i class="fas fa-user"><svg xmlns="http://www.w3.org/2000/svg" width="1em"
+            height="1em" viewBox="0 0 32 32">
+            <path fill="white"
+              d="M26.047 12.197c-1.828 0-2.844 1.355-3.057 2.824h6.147c-.167-1.401-1.157-2.819-3.089-2.819zm-3.011 4.83c.313 1.541 1.589 2.624 3.376 2.624c.963 0 2.359-.359 3.176-1.219l1.568 1.803c-1.416 1.479-3.536 1.901-4.984 1.901c-3.521 0-6.265-2.543-6.265-6.147c0-3.375 2.525-6.156 6.093-6.156c3.448 0 6 2.64 6 6.136v1.02h-8.964zm-8.651 5.104v-7.589c0-1.296-.579-2.047-1.787-2.047c-1.083 0-1.801.781-2.287 1.344v8.317H7.176v-7.599c0-1.303-.552-2.041-1.756-2.041c-1.083 0-1.833.781-2.291 1.344v8.317H-.002V10.01h3.136v1.531c.531-.615 1.733-1.677 3.609-1.677c1.667 0 2.796.699 3.301 2.12c.703-1.015 2-2.12 3.88-2.12c2.271 0 3.589 1.344 3.589 3.948v8.324h-3.136l.005-.011z" />
+          </svg></i></a>
+    </div>
+  </footer>
+</body>
+
+</html>
